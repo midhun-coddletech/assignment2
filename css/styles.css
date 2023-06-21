@@ -1,0 +1,105 @@
+body{
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.container{
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.section1{
+    width: 100%;
+    background-color:#FFFFFF;
+    padding-bottom: 20px;
+}
+
+.section2{
+    width: 100%;
+    background-color: #EDF1F4;
+    padding-bottom: 15px;
+}
+
+.section3{
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.section1-div{
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.section1-div h1{
+    color: #9E8080;
+    font-size: 50px;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: bold;
+    margin-bottom: 0;
+    
+}
+
+.section1-div p{
+    color: black;
+    font-size: 25px;
+}
+
+.section2-div{
+    display: flex;
+}
+
+.section2-image-div{
+    flex: 1;
+
+}
+
+.section2-image-div img{
+    margin-left: 50px;
+    padding-left: 65px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: 84%;
+
+}
+
+.section2-text-div{
+    padding: 45px;
+    flex: 1;
+}
+
+.section2-text-div h2{
+    font-weight: 400;
+    font-size: 37px;
+    margin-left: 10px;
+}
+
+.section2-text-div p{
+    font-weight: normal;
+    font-size: 21px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.section2-text-div a{
+    font-size: 20px;
+    margin-left: 20px;
+    color: black;
+    text-decoration: underline;
+}
+
+
+.section3-image-div{
+    text-align: center;
+}
+
+.section3-image-div img{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 84%;
+}
