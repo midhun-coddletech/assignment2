@@ -6,6 +6,11 @@ body{
     font-family: 'Segoe UI', sans-serif;
 }
 
+.container{
+    min-width: 1440px;
+    margin: 0 auto;
+}
+
 
 .lorem-section{
     width: 100%;
@@ -71,7 +76,7 @@ body{
 
 .brown-bag-section-text-div p{
     font-weight: normal;
-    font-size: 21px;
+    font-size: 20px;
     margin-bottom: 25px;
     margin-left: 25px;
 }
