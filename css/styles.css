@@ -1,105 +1,96 @@
+*{
+    margin: 0px;
+}
+
 body{
     font-family: 'Segoe UI', sans-serif;
 }
 
-.container{
-    width: 100%;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    position: absolute;
-}
 
-.section1{
+.lorem-section{
     width: 100%;
     background-color:#FFFFFF;
-    padding-bottom: 20px;
 }
 
-.section2{
+.brown-bag-section{
     width: 100%;
     background-color: #EDF1F4;
     padding-bottom: 15px;
 }
 
-.section3{
+.black-bag-section{
     width: 100%;
     background-color: #FFFFFF;
 }
 
-.section1-div{
+.lorem-section-div{
     text-align: center;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    margin-top: 85px;
+    margin-bottom: 75px;  
 }
 
-.section1-div h1{
+.lorem-section-div h1{
     color: #9E8080;
     font-size: 50px;
     font-family: 'Segoe UI', sans-serif;
     font-weight: bold;
-    margin-bottom: 0;
-    
+    margin-bottom: 23px;
 }
 
-.section1-div p{
+.lorem-section-div p{
     color: black;
     font-size: 25px;
 }
 
-.section2-div{
+.brown-bag-section-div{
     display: flex;
+    margin-bottom: 76px;
 }
 
-.section2-image-div{
-    flex: 1;
-
-}
-
-.section2-image-div img{
-    margin-left: 50px;
-    padding-left: 65px;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    width: 84%;
-
-}
-
-.section2-text-div{
-    padding: 45px;
+.brown-bag-section-image-div{
     flex: 1;
 }
 
-.section2-text-div h2{
+.brown-bag-section-image-div img{
+    margin-top: 75px;
+    margin-left: 110px;
+    width:80%
+}
+
+.brown-bag-section-text-div{
+    margin-top: 70px;
+    flex: 1;
+}
+
+.brown-bag-section-text-div h2{
     font-weight: 400;
-    font-size: 37px;
-    margin-left: 10px;
+    font-size: 38px;
+    margin-left: 15px;
+    margin-bottom: 35px;
 }
 
-.section2-text-div p{
+.brown-bag-section-text-div p{
     font-weight: normal;
     font-size: 21px;
-    margin-bottom: 10px;
-    margin-left: 20px;
+    margin-bottom: 25px;
+    margin-left: 25px;
 }
 
-.section2-text-div a{
+.brown-bag-section-text-div a{
     font-size: 20px;
-    margin-left: 20px;
+    margin-left: 25px;
     color: black;
     text-decoration: underline;
 }
 
-
-.section3-image-div{
-    text-align: center;
+.black-bag-section-image-div img{
+    width: 85%;
+    margin-top: 50px;
+    margin-bottom: 105px;
+    margin-left: 110px;
+    margin-right: 110px;
 }
 
-.section3-image-div img{
-    margin-top: 50px;
-    margin-bottom: 100px;
-    width: 84%;
+.consectetur-span{
+    font-weight: bold; color: #D7856D;
 }
