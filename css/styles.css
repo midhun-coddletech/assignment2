@@ -8,7 +8,7 @@ body{
 }
 
 .container{
-    max-width: 1366px;
+    max-width: 1350px;
     margin: 0 auto;
 }
 
@@ -33,7 +33,7 @@ body{
 
 .intro-div h1{
     color: #9E8080;
-    font-size: 42px;
+    font-size: 47px;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     margin-bottom: 23px;
@@ -41,7 +41,7 @@ body{
 
 .intro-div p{
     color: black;
-    font-size: 21px;
+    font-size: 24px;
 }
 
 .main-content-div{
@@ -55,37 +55,38 @@ body{
 }
 
 .main-content-image-div img{
-    width: 76%;
-    margin-left: 110px;
+    width: 88%;
+    margin-left: 35px;
 }
 
 .main-content-text-div{
-    margin-top: 70px;
+    margin-top: 75px;
     flex: 1;
 }
 
 .main-content-text-div h2{
+    margin-left: 15px;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 36px;
     margin-bottom: 35px;
 }
 
 .main-content-text-div p{
     font-weight: normal;
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 25px;
-    margin-left: 20px;
+    margin-left: 25px;
 }
 
 .main-content-text-div a{
-    font-size: 18px;
+    font-size: 20px;
     color: black;
     text-decoration: underline;
-    margin-left: 20px;
+    margin-left: 25px;
 }
 
 .ending-content-image-div img{
-    width: 84%;
+    width: 95%;
 }
 
 .ending-content-image-div {
