@@ -2,43 +2,38 @@
     margin: 0px;
 }
 
-
-
 body{
-    margin: 0;
+    margin: 0px;
     font-family: 'Open Sans', sans-serif;
 }
 
-#container{
+.container{
     width: 1350px;
     margin: 0 auto;
-    
+    overflow-x: hidden;
 }
 
 
-.lorem-section{
-
+.intro{
     background-color:#FFFFFF;
 }
 
-.brown-bag-section{
-
+.main-content{
     background-color: #EDF1F4;
     padding-bottom: 15px;
 }
 
-.black-bag-section{
-    
+.ending-content{
     background-color: #FFFFFF;
 }
 
-.lorem-section-div{
+.intro-div{
     text-align: center;
     margin-top: 85px;
     margin-bottom: 75px;  
 }
 
-.lorem-section-div h1{
+.intro-div h1{
     color: #9E8080;
     font-size: 42px;
     font-family: 'Open Sans', sans-serif;
@@ -46,61 +41,59 @@ body{
     margin-bottom: 23px;
 }
 
-.lorem-section-div p{
+.intro-div p{
     color: black;
     font-size: 21px;
 }
 
-.brown-bag-section-div{
+.main-content-div{
     display: flex;
-    
 }
 
-.brown-bag-section-image-div{
+.main-content-image-div{
     margin-top: 75px;
     margin-bottom: 75px;
     flex: 1;
 }
 
-.brown-bag-section-image-div img{
+.main-content-image-div img{
     width: 76%;
     margin-left: 110px;
 }
 
-.brown-bag-section-text-div{
+.main-content-text-div{
     margin-top: 70px;
     flex: 1;
 }
 
-.brown-bag-section-text-div h2{
+.main-content-text-div h2{
     font-weight: 400;
     font-size: 32px;
     margin-bottom: 35px;
 }
 
-.brown-bag-section-text-div p{
+.main-content-text-div p{
     font-weight: normal;
     font-size: 18px;
     margin-bottom: 25px;
     margin-left: 10px;
- 
 }
 
-.brown-bag-section-text-div a{
+.main-content-text-div a{
     font-size: 18px;
     color: black;
     text-decoration: underline;
     margin-left: 10px;
 }
 
-.black-bag-section-image-div img{
+.ending-content-image-div img{
     margin-top: 50px;
     margin-bottom: 105px;
 
     width: 84%;
 }
 
-.black-bag-section-image-div {
+.ending-content-image-div {
     text-align: center;
 }
 
