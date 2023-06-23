@@ -1,18 +1,16 @@
-*{
-    margin: 0px;
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
 }
 
-body{
-    margin: 0px;
-    font-family: 'Open Sans', sans-serif;
+*{
+    margin: 0 auto;
 }
 
 .container{
-    width: 1350px;
+    max-width: 1440px;
     margin: 0 auto;
-    overflow-x: hidden;
 }
-
 
 .intro{
     background-color:#FFFFFF;
@@ -29,8 +27,8 @@ body{
 
 .intro-div{
     text-align: center;
-    margin-top: 85px;
-    margin-bottom: 75px;  
+    padding-top: 85px; 
+    padding-bottom: 75px; 
 }
 
 .intro-div h1{
@@ -87,14 +85,13 @@ body{
 }
 
 .ending-content-image-div img{
-    margin-top: 50px;
-    margin-bottom: 105px;
-
     width: 84%;
 }
 
 .ending-content-image-div {
     text-align: center;
+    padding-top: 50px;
+    padding-bottom: 105px;
 }
 
 .consectetur-span{
